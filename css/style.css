@@ -116,6 +116,8 @@ header {
   -moz-box-shadow:0 0 5px #f2f2f2;
 	-webkit-box-shadow:0 0 5px #f2f2f2;
   box-shadow:0 0 5px #f2f2f2;
+/*   max-width: 100%;
+  height: auto; */
 }
 
 #navigation img:hover{
@@ -129,6 +131,25 @@ header {
 
 #navigation img:active{
   margin-top: 10px;
+}
+
+
+@media screen and (max-height: 1000px) { 
+  #navigation img { height: 70px;}
+}
+@media screen and (max-height: 500px) { 
+  #navigation img { height: 35px; }
+}
+
+
+/* @media screen and (max-width: 1920px) { 
+  #navigation img { width: 100%;} */
+
+@media screen and (max-width: 1000px) { 
+  #navigation img { width: 70px;}
+}
+@media screen and (max-width: 500px) { 
+  #navigation img { width: 35px; }
 }
 
 
